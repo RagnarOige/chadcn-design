@@ -5,7 +5,8 @@ import { Link } from 'react-router-dom'
 function Magazine() {
     const [count, setCount] = useState(0)
   return (
-    <div>
+    <div className=''>
+      <div className="px-4 md:px-[48px]">
         <div className='flex justify-center'>
             <p className="font-bold text-[4.7rem] md:text-[14.1rem] leading-none mt-10 ">MAGAZINE</p>
         </div>  
@@ -277,8 +278,10 @@ function Magazine() {
                         </div>
                     </div>
                 </div>
-                <div className="bg-black text-white px-4 md:px-[48px] pt-20 mt-32">
+      </div>
+              <div className="bg-black text-white px-4 md:px-[48px] pt-20 mt-32">
                 <div className="flex gap-6 overflow-hidden whitespace-nowrap text-sm font-semibold">
+                  <p>NEWSLETTER+++</p>
                   <p>NEWSLETTER+++</p>
                   <p>NEWSLETTER+++</p>
                   <p>NEWSLETTER+++</p>
